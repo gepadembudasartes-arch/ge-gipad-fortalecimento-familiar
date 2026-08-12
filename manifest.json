@@ -1,0 +1,41 @@
+{
+  "name": "GE GIPAD - Fortalecimento Familiar",
+  "short_name": "GE GIPAD",
+  "description": "Aplicação para fortalecimento dos laços familiares através de atividades interativas",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#4CAF50",
+  "background_color": "#ffffff",
+  "categories": ["education", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%234CAF50' width='540' height='720'/><text x='270' y='360' font-size='72' fill='white' text-anchor='middle' dominant-baseline='middle' font-weight='bold'>GE GIPAD</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1280 720'><rect fill='%234CAF50' width='1280' height='720'/><text x='640' y='360' font-size='72' fill='white' text-anchor='middle' dominant-baseline='middle' font-weight='bold'>GE GIPAD</text></svg>",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Bem-vindo",
+      "short_name": "Home",
+      "description": "Ir para a página inicial",
+      "url": "./index.html",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%234CAF50' width='192' height='192'/><text x='96' y='96' font-size='120' fill='white' text-anchor='middle' dominant-baseline='middle' font-weight='bold'>GE</text></svg>",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}
